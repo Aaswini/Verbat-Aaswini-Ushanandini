@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB3331121E58073400ED670B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3331111E58073400ED670B /* main.m */; };
+		DB3331151E58073400ED670B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3331141E58073400ED670B /* AppDelegate.m */; };
+		DB3331181E58073400ED670B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3331171E58073400ED670B /* ViewController.m */; };
+		DB33311B1E58073400ED670B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB3331191E58073400ED670B /* Main.storyboard */; };
+		DB33311D1E58073400ED670B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB33311C1E58073400ED670B /* Assets.xcassets */; };
+		DB3331201E58073400ED670B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB33311E1E58073400ED670B /* LaunchScreen.storyboard */; };
+		DB33312B1E58073400ED670B /* VerbatMachineTest_SwipeCardsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB33312A1E58073400ED670B /* VerbatMachineTest_SwipeCardsTests.m */; };
+		DB3331361E58073400ED670B /* VerbatMachineTest_SwipeCardsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3331351E58073400ED670B /* VerbatMachineTest_SwipeCardsUITests.m */; };
+		DB33316B1E5821FC00ED670B /* DraggableView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3331661E5821FC00ED670B /* DraggableView.m */; };
+		DB33316C1E5821FC00ED670B /* DraggableViewBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3331681E5821FC00ED670B /* DraggableViewBackground.m */; };
+		DB33316D1E5821FC00ED670B /* OverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB33316A1E5821FC00ED670B /* OverlayView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB3331271E58073400ED670B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB3331051E58073400ED670B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB33310C1E58073400ED670B;
+			remoteInfo = VerbatMachineTest_SwipeCards;
+		};
+		DB3331321E58073400ED670B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB3331051E58073400ED670B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB33310C1E58073400ED670B;
+			remoteInfo = VerbatMachineTest_SwipeCards;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB33310D1E58073400ED670B /* VerbatMachineTest_SwipeCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VerbatMachineTest_SwipeCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB3331111E58073400ED670B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB3331131E58073400ED670B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB3331141E58073400ED670B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB3331161E58073400ED670B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DB3331171E58073400ED670B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DB33311A1E58073400ED670B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB33311C1E58073400ED670B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB33311F1E58073400ED670B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB3331211E58073400ED670B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB3331261E58073400ED670B /* VerbatMachineTest_SwipeCardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VerbatMachineTest_SwipeCardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB33312A1E58073400ED670B /* VerbatMachineTest_SwipeCardsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VerbatMachineTest_SwipeCardsTests.m; sourceTree = "<group>"; };
+		DB33312C1E58073400ED670B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB3331311E58073400ED670B /* VerbatMachineTest_SwipeCardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VerbatMachineTest_SwipeCardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB3331351E58073400ED670B /* VerbatMachineTest_SwipeCardsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VerbatMachineTest_SwipeCardsUITests.m; sourceTree = "<group>"; };
+		DB3331371E58073400ED670B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB3331651E5821FC00ED670B /* DraggableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DraggableView.h; sourceTree = "<group>"; };
+		DB3331661E5821FC00ED670B /* DraggableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DraggableView.m; sourceTree = "<group>"; };
+		DB3331671E5821FC00ED670B /* DraggableViewBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DraggableViewBackground.h; sourceTree = "<group>"; };
+		DB3331681E5821FC00ED670B /* DraggableViewBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DraggableViewBackground.m; sourceTree = "<group>"; };
+		DB3331691E5821FC00ED670B /* OverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayView.h; sourceTree = "<group>"; };
+		DB33316A1E5821FC00ED670B /* OverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB33310A1E58073400ED670B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3331231E58073400ED670B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB33312E1E58073400ED670B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB3331041E58073400ED670B = {
+			isa = PBXGroup;
+			children = (
+				DB33310F1E58073400ED670B /* VerbatMachineTest_SwipeCards */,
+				DB3331291E58073400ED670B /* VerbatMachineTest_SwipeCardsTests */,
+				DB3331341E58073400ED670B /* VerbatMachineTest_SwipeCardsUITests */,
+				DB33310E1E58073400ED670B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB33310E1E58073400ED670B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB33310D1E58073400ED670B /* VerbatMachineTest_SwipeCards.app */,
+				DB3331261E58073400ED670B /* VerbatMachineTest_SwipeCardsTests.xctest */,
+				DB3331311E58073400ED670B /* VerbatMachineTest_SwipeCardsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB33310F1E58073400ED670B /* VerbatMachineTest_SwipeCards */ = {
+			isa = PBXGroup;
+			children = (
+				DB3331641E5821FC00ED670B /* Library */,
+				DB3331131E58073400ED670B /* AppDelegate.h */,
+				DB3331141E58073400ED670B /* AppDelegate.m */,
+				DB3331161E58073400ED670B /* ViewController.h */,
+				DB3331171E58073400ED670B /* ViewController.m */,
+				DB3331191E58073400ED670B /* Main.storyboard */,
+				DB33311C1E58073400ED670B /* Assets.xcassets */,
+				DB33311E1E58073400ED670B /* LaunchScreen.storyboard */,
+				DB3331211E58073400ED670B /* Info.plist */,
+				DB3331101E58073400ED670B /* Supporting Files */,
+			);
+			path = VerbatMachineTest_SwipeCards;
+			sourceTree = "<group>";
+		};
+		DB3331101E58073400ED670B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB3331111E58073400ED670B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB3331291E58073400ED670B /* VerbatMachineTest_SwipeCardsTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB33312A1E58073400ED670B /* VerbatMachineTest_SwipeCardsTests.m */,
+				DB33312C1E58073400ED670B /* Info.plist */,
+			);
+			path = VerbatMachineTest_SwipeCardsTests;
+			sourceTree = "<group>";
+		};
+		DB3331341E58073400ED670B /* VerbatMachineTest_SwipeCardsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB3331351E58073400ED670B /* VerbatMachineTest_SwipeCardsUITests.m */,
+				DB3331371E58073400ED670B /* Info.plist */,
+			);
+			path = VerbatMachineTest_SwipeCardsUITests;
+			sourceTree = "<group>";
+		};
+		DB3331641E5821FC00ED670B /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				DB3331651E5821FC00ED670B /* DraggableView.h */,
+				DB3331661E5821FC00ED670B /* DraggableView.m */,
+				DB3331671E5821FC00ED670B /* DraggableViewBackground.h */,
+				DB3331681E5821FC00ED670B /* DraggableViewBackground.m */,
+				DB3331691E5821FC00ED670B /* OverlayView.h */,
+				DB33316A1E5821FC00ED670B /* OverlayView.m */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB33310C1E58073400ED670B /* VerbatMachineTest_SwipeCards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB33313A1E58073400ED670B /* Build configuration list for PBXNativeTarget "VerbatMachineTest_SwipeCards" */;
+			buildPhases = (
+				DB3331091E58073400ED670B /* Sources */,
+				DB33310A1E58073400ED670B /* Frameworks */,
+				DB33310B1E58073400ED670B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VerbatMachineTest_SwipeCards;
+			productName = VerbatMachineTest_SwipeCards;
+			productReference = DB33310D1E58073400ED670B /* VerbatMachineTest_SwipeCards.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB3331251E58073400ED670B /* VerbatMachineTest_SwipeCardsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB33313D1E58073400ED670B /* Build configuration list for PBXNativeTarget "VerbatMachineTest_SwipeCardsTests" */;
+			buildPhases = (
+				DB3331221E58073400ED670B /* Sources */,
+				DB3331231E58073400ED670B /* Frameworks */,
+				DB3331241E58073400ED670B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB3331281E58073400ED670B /* PBXTargetDependency */,
+			);
+			name = VerbatMachineTest_SwipeCardsTests;
+			productName = VerbatMachineTest_SwipeCardsTests;
+			productReference = DB3331261E58073400ED670B /* VerbatMachineTest_SwipeCardsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB3331301E58073400ED670B /* VerbatMachineTest_SwipeCardsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB3331401E58073400ED670B /* Build configuration list for PBXNativeTarget "VerbatMachineTest_SwipeCardsUITests" */;
+			buildPhases = (
+				DB33312D1E58073400ED670B /* Sources */,
+				DB33312E1E58073400ED670B /* Frameworks */,
+				DB33312F1E58073400ED670B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB3331331E58073400ED670B /* PBXTargetDependency */,
+			);
+			name = VerbatMachineTest_SwipeCardsUITests;
+			productName = VerbatMachineTest_SwipeCardsUITests;
+			productReference = DB3331311E58073400ED670B /* VerbatMachineTest_SwipeCardsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB3331051E58073400ED670B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Aaswini;
+				TargetAttributes = {
+					DB33310C1E58073400ED670B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					DB3331251E58073400ED670B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DB33310C1E58073400ED670B;
+					};
+					DB3331301E58073400ED670B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DB33310C1E58073400ED670B;
+					};
+				};
+			};
+			buildConfigurationList = DB3331081E58073400ED670B /* Build configuration list for PBXProject "VerbatMachineTest_SwipeCards" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB3331041E58073400ED670B;
+			productRefGroup = DB33310E1E58073400ED670B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB33310C1E58073400ED670B /* VerbatMachineTest_SwipeCards */,
+				DB3331251E58073400ED670B /* VerbatMachineTest_SwipeCardsTests */,
+				DB3331301E58073400ED670B /* VerbatMachineTest_SwipeCardsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB33310B1E58073400ED670B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB3331201E58073400ED670B /* LaunchScreen.storyboard in Resources */,
+				DB33311D1E58073400ED670B /* Assets.xcassets in Resources */,
+				DB33311B1E58073400ED670B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3331241E58073400ED670B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB33312F1E58073400ED670B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB3331091E58073400ED670B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB3331181E58073400ED670B /* ViewController.m in Sources */,
+				DB33316D1E5821FC00ED670B /* OverlayView.m in Sources */,
+				DB3331151E58073400ED670B /* AppDelegate.m in Sources */,
+				DB33316B1E5821FC00ED670B /* DraggableView.m in Sources */,
+				DB3331121E58073400ED670B /* main.m in Sources */,
+				DB33316C1E5821FC00ED670B /* DraggableViewBackground.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3331221E58073400ED670B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB33312B1E58073400ED670B /* VerbatMachineTest_SwipeCardsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB33312D1E58073400ED670B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB3331361E58073400ED670B /* VerbatMachineTest_SwipeCardsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB3331281E58073400ED670B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB33310C1E58073400ED670B /* VerbatMachineTest_SwipeCards */;
+			targetProxy = DB3331271E58073400ED670B /* PBXContainerItemProxy */;
+		};
+		DB3331331E58073400ED670B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB33310C1E58073400ED670B /* VerbatMachineTest_SwipeCards */;
+			targetProxy = DB3331321E58073400ED670B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB3331191E58073400ED670B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB33311A1E58073400ED670B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB33311E1E58073400ED670B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB33311F1E58073400ED670B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB3331381E58073400ED670B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB3331391E58073400ED670B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB33313B1E58073400ED670B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VerbatMachineTest_SwipeCards/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aaswini.VerbatMachineTest-SwipeCards";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB33313C1E58073400ED670B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VerbatMachineTest_SwipeCards/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aaswini.VerbatMachineTest-SwipeCards";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DB33313E1E58073400ED670B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VerbatMachineTest_SwipeCardsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aaswini.VerbatMachineTest-SwipeCardsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VerbatMachineTest_SwipeCards.app/VerbatMachineTest_SwipeCards";
+			};
+			name = Debug;
+		};
+		DB33313F1E58073400ED670B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VerbatMachineTest_SwipeCardsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aaswini.VerbatMachineTest-SwipeCardsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VerbatMachineTest_SwipeCards.app/VerbatMachineTest_SwipeCards";
+			};
+			name = Release;
+		};
+		DB3331411E58073400ED670B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VerbatMachineTest_SwipeCardsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aaswini.VerbatMachineTest-SwipeCardsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VerbatMachineTest_SwipeCards;
+			};
+			name = Debug;
+		};
+		DB3331421E58073400ED670B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VerbatMachineTest_SwipeCardsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aaswini.VerbatMachineTest-SwipeCardsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VerbatMachineTest_SwipeCards;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB3331081E58073400ED670B /* Build configuration list for PBXProject "VerbatMachineTest_SwipeCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB3331381E58073400ED670B /* Debug */,
+				DB3331391E58073400ED670B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB33313A1E58073400ED670B /* Build configuration list for PBXNativeTarget "VerbatMachineTest_SwipeCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB33313B1E58073400ED670B /* Debug */,
+				DB33313C1E58073400ED670B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB33313D1E58073400ED670B /* Build configuration list for PBXNativeTarget "VerbatMachineTest_SwipeCardsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB33313E1E58073400ED670B /* Debug */,
+				DB33313F1E58073400ED670B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB3331401E58073400ED670B /* Build configuration list for PBXNativeTarget "VerbatMachineTest_SwipeCardsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB3331411E58073400ED670B /* Debug */,
+				DB3331421E58073400ED670B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB3331051E58073400ED670B /* Project object */;
+}
